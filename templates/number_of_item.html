@@ -1,0 +1,9 @@
+<div class = "row">
+<div class ="col-sm-3 col-md-3">hello its main {{ barcode }}</div>
+    <div class = "col-sm-3">
+        <form class="form-search" method="get", action="{{ url_for('additem') }}">
+             <input type="text"  name="barcode" class="input-medium search-query">
+            <button type="submit" class="btn">Добавить</button>
+        </form>
+    </div>
+</div>
