@@ -96,7 +96,7 @@ var ItemView = Backbone.View.extend({ //вид елемента
     destroy: function  () {
 //            e.preventDefault();
             this.model.destroy();
-            alert("model whos destroy");
+            //alert("model whos destroy");
             console.log(itemcCllection);
         },
 //    events:{
