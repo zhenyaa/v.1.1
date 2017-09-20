@@ -45,7 +45,7 @@ def admin():
 
 @app.route('/hello')
 def hello_world():
-    return 'Hello World2!'
+    return 'Hello World22!'
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', debug=True)
